@@ -1,5 +1,5 @@
 # Triplet-Loss_Siamese_NN
-Siamese Network Triplet Loss Influenced from the Original FaceNet. 
+Siamese Network Triplet Loss Influenced from the Original FaceNet. https://arxiv.org/abs/1503.03832
 This Network is different from the facenet Paper in two ways:
 1) The Network uses the RMSE(Root Mean Square Error) as the distance measure between the positve from the anchor and the    negative from the anchor.
 2) The Convolutional Layers have been replaced by the Dense layer of 64 Dimensions. (This can be read as an encoding)
